@@ -1,5 +1,18 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+{{log this.changesetObj.changes}}
 
-{{outlet}}
+{{#each-in (get this.changesetObj 'directions') as |presetNr property|}}
+  <div class="vi-toggle">
+    <div class="vi-toggle-label">{{property.label}}:</div>
+    {{#let (concat 'directions.' presetNr '.hidden') as |contextKey|}}
+      <XToggle @value={{not (get this.changesetObj contextKey)}}
+               @showLabels={{true}}
+               @theme="default"
+               @size="medium"
+               @onLabel="show"
+               @offLabel="hide"
+               @disabled={{and this.onlyOneVisible (not (changeset-get this.changesetObj contextKey))}}
+               @onToggle={{action (changeset-set this.changesetObj contextKey) (not (get this.changesetObj contextKey))}}
+      />
+    {{/let}}
+  </div>
+{{/each-in}}
