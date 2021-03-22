@@ -5111,7 +5111,7 @@ ember-cli-version-checker@^5.1.1, ember-cli-version-checker@^5.1.2:
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@~3.25.2:
+ember-cli@3.25.2:
   version "3.25.2"
   resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-3.25.2.tgz#e48203adfb2e6ff8f93d88b602f2c7c3b1633be2"
   integrity sha512-+SpcuOlmo2ccsCPGRUW7X7aIP0eUst81hu3ncK5TDuIivLEA1UQbWXvQaHlVxxmEzjWLNBOBm4ziOL/eHIVDvw==
@@ -5217,7 +5217,7 @@ ember-compatibility-helpers@^1.1.1, ember-compatibility-helpers@^1.1.2, ember-co
     ember-cli-version-checker "^5.1.1"
     semver "^5.4.1"
 
-ember-data@~3.25.0:
+ember-data@3.25.0:
   version "3.25.0"
   resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-3.25.0.tgz#fe9bbff26563aa61dfc4430f61c16141e5d57d30"
   integrity sha512-qz2ZvMJuMMLrANLks/mbPvCejydNR96INRXAZ+0MlvABj1jhogQRZIXaKbD/6NnHj8O/I+XLXHn6zENP/oDRww==
@@ -5368,7 +5368,7 @@ ember-source-channel-url@^3.0.0:
   dependencies:
     node-fetch "^2.6.0"
 
-ember-source@~3.25.3:
+ember-source@3.25.3:
   version "3.25.3"
   resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.25.3.tgz#a64278a2dcc36b03056589e1b7393f4558c42d70"
   integrity sha512-3HgfvYJfvcALNJSsPvbN0qn9ykI7Px7mPyCidXJRdm+tdPB0DKFW3nqT+4W+7YysWYGsj6yS81NhksnXEw4Naw==
